@@ -1,2 +1,2 @@
 # Cryptocurrency Price Prediction
- Predict how tweets affect Cryptocurrency Prices using a combination of NLP and Neural Networks.
+This project aims to analyze how tweets affect the cryptocurrency market. We have used textual data (tweets) from some specific Twitter accounts relating to the cryptocurrency market. It required using Binance API to get the prices, then examining the price changes over the six hours after each tweet. FinBERT is a pre-trained NLP model for sentiment analysis of financial texts, so we used Finbert for this purpose. With the combination of a Finbert Model and an LSTM Model, we designed and trained a primary model to predict each tweet's effect on cryptocurrency prices. This project is still in progress.
